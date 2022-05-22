@@ -1,0 +1,20 @@
+body {
+    background-color: brown;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 200%;
+    color: white;
+}
+form {
+    font-size: large;
+    color: white;
+    margin-left: 40%;
+    outline: none;
+}
+input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

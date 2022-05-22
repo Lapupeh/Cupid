@@ -1,0 +1,55 @@
+body {
+    color: white;
+    background-color: brown;
+    width: 70%;
+    height: 100%;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px;
+    font-size: 300%;
+}
+form {
+    border: 2px solid white;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 20rem;
+    padding: 1rem;
+    width: 90%;
+}
+.submit {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: brown;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: gray;
+    color: brown;
+}
+textarea  {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: large;
+    padding: 15px 10px 10px;
+    border: 1px solid gray;
+    background-color: #efefef;
+    color: black;
+    border-radius: 5px;
+    width: 50%;
+    outline: none;
+}
+label {
+    font-size: 200%;
+}
+select {
+    font-size: 100%;
+}
